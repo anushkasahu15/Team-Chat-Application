@@ -1,0 +1,22 @@
+version: '3.8'
+services:
+  backend:
+    build: ./backend
+    volumes:
+      - ./backend:/app
+      - backend-data:/app/dev.db
+    environment:
+      - PORT=4000
+      - DATABASE_URL=file:./dev.db
+      - JWT_SECRET=secretdev
+    ports:
+      - '4000:4000'
+  frontend:
+    build: ./frontend
+    ports:
+      - '5173:80'
+    depends_on:
+      - backend
+
+volumes:
+  backend-data:
