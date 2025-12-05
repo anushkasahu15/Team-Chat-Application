@@ -117,4 +117,3 @@ Frontend runs on `http://localhost:5173`
 
 ---
 
-For detailed project architecture, see `PROJECT_DOCUMENTATION.md`
