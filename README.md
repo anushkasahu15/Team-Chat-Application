@@ -34,14 +34,14 @@ Frontend runs on `http://localhost:5173`
 
 ## Features
 
-- ✅ User signup / login (JWT auth)
-- ✅ Channels (create, join, leave)
-- ✅ Real-time messaging (Socket.IO)
-- ✅ Online users presence
-- ✅ Typing indicators
-- ✅ Message deletion (sender only)
-- ✅ Message pagination (load older messages)
-- ✅ Persistent message storage (SQLite)
+-  User signup / login (JWT auth)
+-  Channels (create, join, leave)
+-  Real-time messaging (Socket.IO)
+-  Online users presence
+-  Typing indicators
+-  Message deletion (sender only)
+-  Message pagination (load older messages)
+-  Persistent message storage (SQLite)
 
 ## Demo with Two Users
 
@@ -115,5 +115,5 @@ Frontend runs on `http://localhost:5173`
 - Use incognito/private window (keeps separate localStorage)
 - Both must be in the same channel
 
----
+
 
